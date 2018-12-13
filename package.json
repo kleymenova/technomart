@@ -1,0 +1,24 @@
+{
+  "name": "technormart",
+  "version": "1.0.0",
+  "description": "Задание на верстку",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0ro/technormart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0ro/technormart/issues"
+  },
+  "homepage": "https://github.com/0ro/technormart#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
+

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>technomart</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="topbar header__topbar">
+      <div class="container flex topbar__container">
+        <!-- logo -->
+        <div class="header__logo">
+          <a class="logo logo_active" href="#">
+          техномарт
+          </a>
+        </div>
+        <!-- search -->
+        <div class="search header__search">
+          <input type="text" class="form-control form-control_search" placeholder=" Поиск ">
+          <i class="fas fa-search icon icon_grey search__icon">
+          </i>
+        </div>
+        <!-- bookmarks -->
+        <div class="header__bookmarks">
+          <a class="bookmarks bookmarks_active" href="#">
+            <i class="fas fa-bookmark icon icon_grey bookmarks__icon"></i>
+            Закладки: <span>0</span>
+          </a>
+        </div>
+        <!-- backet -->
+        <div class="header__basket">
+          <a class="basket basket_active" href="#">
+            <i class="fas fa-shopping-cart icon icon_grey basket__icon"></i>
+              Корзина: <span>0</span>
+          </a>
+        </div>
+        <!-- checkout -->
+        <div class="checkout header__checkout">
+          <a class="btn btn_green checkout__btn" href="#">Оформить заказ</a>
+        </div>
+      </div>
+    </div>
+    <!-- information -->
+    <div class="info container info__container flex">
+      <!-- description -->
+      <div class="description info__description">
+        <p class="description__value">
+          Интернет-магазин строительных материалов и инструментов для ремонта
+        </p>
+      </div>
+      <div class="contacts info__contacts">
+        <!-- phone -->
+        <div class="phone contacts__phone">
+          <i class="fas fa-phone icon icon icon_light-grey phone__icon">
+          </i>
+          <a class="phone__value" href="#">+7 (812) 555-05-55
+          </a>
+        </div>
+        <!-- address -->
+        <div class="address contacts__address">
+          <p class="text address__text">
+            г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          </p>
+        </div>
+      </div>
+      <div class="entrance info__entrance flex">
+        <!-- sign in -->
+        <div class="sign-in entrance__sign-in entrance__item">
+          <a class="btn btn_white sign-in__btn" href="#">
+            <i class="fas fa-sign-in-alt icon icon_light-grey sign-in__icon">
+            </i>
+              Войти
+          </a>
+        </div>
+        <!-- check-in -->
+        <div class="check-in entrance__check-in entrance__item">
+          <a class="btn btn_white check-in__btn" href="#">
+            Регистрация
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- navmenu -->
+    <nav class="navmenu container flex">
+      <a class="navmenu__item" href="#">
+        Главная
+      </a>
+      <a class="navmenu__item" href="#">
+        Компания
+      </a>
+      <a class="navmenu__item" href="#">
+        Каталог
+      </a>
+      <a class="navmenu__item" href="#">
+        Новости
+      </a>
+      <a class="navmenu__item" href="#">
+        Спецпредложения
+      </a>
+      <a class="navmenu__item" href="#">
+        Доставка
+      </a>
+      <a class="navmenu__item" href="#">
+        Контакты
+      </a>
+    </nav>
+  </header>
+  <!-- content -->
+  <main class="content">
+    <div class="offers clearfix container">
+      <div class="content__offers">
+        <!-- card 1 -->
+        <div class="card offers__card card_orange">
+          <div class="flag card__flag">
+            <div class="flag_action">
+              new
+            </div>
+          </div>
+          <div class="card__text">
+            Материалы
+          </div>
+          <a class="btn uppercase btn_colorful btn_border-rad card__btn" href="#">
+            На любой вкус
+          </a>
+        </div>
+        <!-- card 2 -->
+        <div class="card offers__card card_blue">
+          <div class="card__text">
+            Инструмент
+          </div>
+          <a class="btn uppercase btn_colorful btn_border-rad card__btn" href="#">
+            На все случаи
+          </a>
+        </div>
+        <!-- card 3 -->
+        <div class="card offers__card card_purple">
+          <div class="card__text">
+            Техника
+          </div>
+          <a class="btn uppercase btn_colorful btn_border-rad card__btn" href="#">
+            Для стройки
+          </a>
+        </div>
+        <!-- slider -->
+        <div class="slider offers__slider">
+          <div class="slide slide_1">
+            <div class="slider__title">
+              Перфораторы
+            </div>
+            <div class="slider__text">
+              Настоящие мужские игрушки
+            </div>
+            <a class="btn btn_red btn_border-rad uppercase slider__btn" href="#">
+              Открыть каталог
+            </a>
+          </div>
+          <div class="slide slide_2">
+            <div class="slider__title">
+              Дрели
+            </div>
+            <div class="slider__text">
+              Соседям на радость!
+            </div>
+            <a class="btn btn_red btn_border-rad uppercase slider__btn" href="#">
+              Открыть каталог
+            </a>
+          </div>
+        </div>
+        <!-- card 4 -->
+        <div class="card offers__card card_green">
+          <div class="card__text">
+            Скидки 50%
+          </div>
+          <a class="btn uppercase btn_colorful btn_border-rad card__btn" href="#">
+          На 350 товаров
+          </a>
+        </div>
+        <!-- card 5 -->
+        <div class="card offers__card card_yellow">
+          <div class="card__text">
+            Доставка
+          </div>
+          <a class="btn uppercase btn_colorful btn_border-rad card__btn" href="#">
+            Бесплатно
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- popular -->
+    <div class="popular content__popular container">
+      <section class="goods popular__goods">
+        <div class="popular-row clearfix">
+          <h3 class="popular-row__text uppercase">
+            Популярные товары:
+          </h3>
+          <a href="#" class="btn uppercase btn_red btn_border-rad popular-row__btn">
+            Все популярные товары
+          </a>
+        </div>
+        <div class="catalog goods__catalog clearfix">
+          <!-- goods-card 1 -->
+          <div class="goods-card catalog__goods-card">
+            <div class="goods-card-active__btns">
+              <a href="#" class="btn btn_green btn_border-rad goods-card-active__btn uppercase">
+                <i class="fas fa-shopping-cart icon icon_green goods-card-active__icon"></i>
+                Купить
+              </a>
+              <a href="#" class="btn btn_border btn_border-rad goods-card-active__btn uppercase">
+                В закладки
+              </a>
+            </div>
+            <div class="goods-card__img">
+              <img src="img/drill9000.png" alt="Перфоратор 9000">
+            </div>
+            <div class="goods-card__title">
+              Перфоратор <span class="uppercase">bosh bfg 9000</span>
+            </div>
+            <div class="goods-card__oldprice">
+              <span class="uppercase strikeout">32500 p.</span>
+            </div>
+            <a href="#" class="btn btn_red btn_border-rad btn_arrow goods-card__btn">
+              <span class="uppercase">25500 p.</span>
+            </a>
+          </div>
+          <!-- goods-card 2 -->
+          <div class="goods-card catalog__goods-card">
+            <div class="goods-card-active__btns">
+              <a href="#" class="btn btn_green btn_border-rad goods-card-active__btn uppercase">
+                <i class="fas fa-shopping-cart icon icon_green goods-card-active__icon"></i>
+                Купить
+              </a>
+              <a href="#" class="btn btn_border btn_border-rad goods-card-active__btn uppercase">
+                В закладки
+              </a>
+            </div>
+            <div class="goods-card__img">
+              <img src="img/drill3000.png" alt="Перфоратор 3000">
+            </div>
+            <div class="goods-card__title">
+              Перфоратор <span class="uppercase">bosh bfg 3000</span>
+            </div>
+            <div class="goods-card__oldprice">
+              <span class="uppercase strikeout">22500 p.</span>
+            </div>
+            <a href="#" class="btn btn_red btn_border-rad btn_arrow goods-card__btn">
+              15500 <span class="uppercase">p.</span>
+            </a>
+          </div>
+          <!-- goods-card 3 -->
+          <div class="goods-card catalog__goods-card">
+            <div class="goods-card-active__btns">
+              <a href="#" class="btn btn_green btn_border-rad goods-card-active__btn uppercase">
+                <i class="fas fa-shopping-cart icon icon_green goods-card-active__icon"></i>
+                Купить
+              </a>
+              <a href="#" class="btn btn_border btn_border-rad goods-card-active__btn uppercase">
+                В закладки
+              </a>
+            </div>
+            <div class="goods-card__img">
+              <img src="img/drill6000.png" alt="Перфоратор 6000">
+            </div>
+            <div class="goods-card__title">
+              Перфоратор <span class="uppercase">bosh bfg 6000</span>
+            </div>
+            <div class="goods-card__oldprice">
+              <span class="uppercase strikeout">30500 p.</span>
+            </div>
+            <a href="#" class="btn btn_red btn_border-rad btn_arrow goods-card__btn">
+              25500 <span class="uppercase">p.</span>
+            </a>
+          </div>
+          <!-- goods-card 4 -->
+          <div class="goods-card catalog__goods-card">
+            <div class="goods-card-active__btns">
+              <a href="#" class="btn btn_green btn_border-rad goods-card-active__btn uppercase">
+                <i class="fas fa-shopping-cart icon icon_green goods-card-active__icon"></i>
+                Купить
+              </a>
+              <a href="#" class="btn btn_border btn_border-rad goods-card-active__btn uppercase">
+                В закладки
+              </a>
+            </div>
+            <div class="goods-card__img">
+              <img src="img/drill2000.png" alt="Перфоратор 2000">
+            </div>
+            <div class="flag goods-card__flag">
+              <div class="flag_action">
+                new
+              </div>
+            </div>
+            <div class="goods-card__title">
+              Перфоратор <span class="uppercase">bosh bfg 2000</span>
+            </div>
+            <div class="goods-card__oldprice">
+              <span class="uppercase strikeout invisible">30500 p.</span>
+            </div>
+            <a href="#" class="btn btn_red btn_border-rad btn_arrow btn__new goods-card__btn">
+              12500 <span class="uppercase">p.</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="brands popular__brands clearfix">
+        <div class="popular-row clearfix">
+          <h3 class="popular-row__text uppercase">
+            Популярные производители:
+          </h3>
+          <a href="#" class="btn uppercase btn_red btn_border-rad popular-row__btn">
+            Все производители
+          </a>
+        </div>
+        <div class="brandslist brands__brandslist clearfix">
+          <a href="#" class="brand popular__brand">
+            <div class="brand__img">
+              <img src="img/bosh.png" alt="bosh">
+            </div>
+          </a>
+          <a href="#" class="brand popular__brand">
+            <div class="brand__img">
+              <img src="img/makita.png" alt="makita">
+            </div>
+          </a>
+          <a href="#" class="brand popular__brand">
+            <div class="brand__img">
+              <img src="img/dewalt.png" alt="dewalt">
+            </div>
+          </a>
+          <a href="#" class="brand popular__brand">
+            <div class="brand__img">
+              <img src="img/interskall.png" alt="interskall">
+            </div>
+          </a>
+          <a href="#" class="brand popular__brand">
+            <div class="brand__img">
+              <img src="img/hitachi.png" alt="hitachi">
+            </div>
+          </a>
+          <a href="#" class="brand popular__brand">
+            <div class="brand__img">
+              <img src="img/LG.png" alt="LG">
+            </div>
+          </a>
+          <a href="#" class="brand popular__brand">
+            <div class="brand__img">
+              <img src="img/aeg.png" alt="aeg">
+            </div>
+          </a>
+          <a href="#" class="brand popular__brand">
+            <div class="brand__img">
+              <img src="img/metabo.png" alt="metabo">
+            </div>
+          </a>
+        </div>
+      </section>
+    </div>
+    <div class="service">
+      <section class="content__service container">
+        <div class="serv-desсription service__serv-desсription">
+          <h2 class="title serv-desсription__title uppercase">
+            Сервисы
+          </h2>
+          <p class="text serv-desсription__text">
+            Хороший интернет-магазин отличается от плохого не только ценами!
+          </p>
+          <p class="text serv-desсription__text">
+            Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+          </p>
+        </div>
+        <div class="services clearfix">
+          <input type="radio" name="service" class="hide" id="delivery" checked>
+          <input type="radio" name="service" class="hide" id="garantee">
+          <input type="radio" name="service" class="hide" id="credit">
+          <div class="services-nav services__services-nav">
+            <label for="delivery" class="services-nav__item serivces-nav_delivery">  Доставка
+            </label>
+            <label for="garantee" class="services-nav__item serivces-nav_garantee">  Гарантия
+            </label>
+            <label for="credit" class="services-nav__item serivces-nav_credit">
+              Кредит
+            </label>
+          </div> 
+          <div class="services__content clearfix">
+            <section class="delivery services__delivery hide">
+              <h2 class="title services__title uppercase">
+                Доставка
+              </h2>
+              <p class="text services__text">
+                Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!
+              </p>
+              <p class="text services__text">
+                Ведь мы неплозо заработаем, поднимая его на этаж!
+              </p>
+            </section>
+            <section class="garantee services__garantee hide">
+              <h2 class="title services__title uppercase">
+                Гарантия
+              </h2>
+              <p class="text services__text">
+                Если купленный у нас товар поломается или заискрит, а так же в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.
+              </p> 
+              <p class="text services__text">
+                Дом уж восстановите как-нибудь сами.
+              </p>
+            </section>
+            <section class="credit services__credit hide">
+              <h2 class="title services__title uppercase">
+                Кредит
+              </h2>
+              <p class="text services__text">
+                Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.
+              </p>
+              <a href="#" class="btn btn_red btn_border-rad uppercase services__btn">
+                Отправить заявку
+              </a>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="about">
+      <div class="content__about container clearfix">
+        <section class="about__left">
+          <h3 class="title about__title uppercase">
+            Компания «Техномарт»
+          </h3>
+          <p class="text about__text">
+            Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
+          </p>
+          <p class="text about__text">
+            Мы можем доставить наш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:
+          </p>
+          <ul class="about__list">
+            <li class="about__item">Деловые линии</li>
+            <li class="about__item">Автотрейдинг</li>
+            <li class="about__item">ЖелДорЭкспедиция</li>
+          </ul>
+          <a href="#" class="btn btn_red btn_border-rad uppercase about__btn">
+            Подробнее о компании
+          </a>
+        </section>
+        <section class="about__right">
+          <h3 class="title about__title uppercase">
+            Контакты
+          </h3>
+          <p class="text about__text">
+            Вы можете забрать товар сами, <br>заехав в наш офис:
+          </p>
+          <a href="#" class="map about__map">
+            <div class="map__img">
+              <img src="img/map.png" alt="Адрес Техномарт" class="img-map">
+            </div>
+          </a>
+          <a href="#" class="btn btn_red btn_border-rad uppercase about__btn about-right__btn">
+            Заблудились? Напишите нам!
+          </a>
+        </section>
+        <div class="map-google about__map-google">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533238!2d30.320858715804064!3d59.938716481876206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1539450381156" width="940" height="455" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="popup popup_map hide">
+    <button class="popup__close" type="button">
+    </button>
+    <div class="popup__content">
+    </div>
+  </div>
+  <div class="popup-shim hide">
+  </div>
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
